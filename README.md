@@ -11,8 +11,6 @@ or get the
 -->
 A TypeScript snippet pack to make you more productive working with the Angular 2 framework.
 
-Based on the [Angular 2 snippets for VSCode](https://github.com/johnpapa/vscode-angular2-snippets).
-
 This extension ships a bunch of useful code snippets for
 the TypeScript and HTML editors to make it easier to work with Angular 2. 
 
@@ -35,7 +33,7 @@ ng2service         // Angular 2 service
 ng2subscribe       // Angular 2 Rx Observable subscription
 ```
 
-### HTML Snippets (coming soon)
+### HTML Snippets
 ```html
 ng2-ngClass
 ng2-ngFor
@@ -45,6 +43,9 @@ ng2-routerLink
 ng2-ngStyle
 ng2-ngSwitch
 ```
+
+## Credit
+This extension is based on John Papa's [Angular 2 Snippets for VS Code](https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2)
 
 ## Contribute
 Check out the [contribution guidelines](.github/CONTRIBUTING.md)

@@ -50,29 +50,50 @@
     <Content Include="Resources\Preview.png">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\Angular2Pack\TypeScript\ng2routing.snippet">
+    <Content Include="Snippets\HTML\Angular2Pack\_default.png">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\Angular2Pack\TypeScript\ng2httpget.snippet">
+    <Content Include="Snippets\TypeScript\Angular2Pack\TypeScript\ng2routing.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\TypeScript\Angular2Pack\TypeScript\ng2httpget.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="..\LICENSE">
       <Link>Resources\LICENSE</Link>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\Angular2Pack\TypeScript\ng2subscribe.snippet">
+    <Content Include="Snippets\TypeScript\Angular2Pack\TypeScript\ng2subscribe.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\Angular2Pack\TypeScript\ng2bootstrap.snippet">
+    <Content Include="Snippets\TypeScript\Angular2Pack\TypeScript\ng2bootstrap.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\Angular2Pack\TypeScript\ng2rootcomponent.snippet">
+    <Content Include="Snippets\TypeScript\Angular2Pack\TypeScript\ng2rootcomponent.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\Angular2Pack\TypeScript\ng2rootmodule.snippet">
+    <Content Include="Snippets\TypeScript\Angular2Pack\TypeScript\ng2rootmodule.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\Angular2Pack\TypeScript\ng2module.snippet">
+    <Content Include="Snippets\TypeScript\Angular2Pack\TypeScript\ng2module.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML\Angular2Pack\ng2-ngClass.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML\Angular2Pack\ng2-ngFor.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML\Angular2Pack\ng2-ngIf.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML\Angular2Pack\ng2-ngModel.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML\Angular2Pack\ng2-routerLink.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML\Angular2Pack\ng2-ngStyle.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <None Include="source.extension.vsixmanifest">
