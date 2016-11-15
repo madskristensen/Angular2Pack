@@ -13,8 +13,6 @@ A TypeScript snippet pack to make you more productive working with the Angular 2
 
 Based on the [Angular 2 snippets for VSCode](https://github.com/johnpapa/vscode-angular2-snippets).
 
-![Snippet manager](art/javascript-snippet-pack.gif)
-
 This extension ships a bunch of useful code snippets for
 the TypeScript and HTML editors to make it easier to work with Angular 2. 
 
