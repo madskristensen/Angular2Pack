@@ -89,6 +89,7 @@
     </Content>
     <Content Include="Snippets\HTML\Angular2Pack\ng2-ngModel.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
+      <SubType>Designer</SubType>
     </Content>
     <Content Include="Snippets\HTML\Angular2Pack\ng2-routerLink.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
@@ -102,7 +103,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Snippets\snippets.pkgdef">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
   </ItemGroup>
