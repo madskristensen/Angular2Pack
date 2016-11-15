@@ -1,0 +1,39 @@
+﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <Title>ng2subscribe</Title>
+    <Author>Mads Kristensen</Author>
+    <Shortcut>ng2subscribe</Shortcut>
+    <Description>Angular 2 observable subscribe snippet</Description>
+    <SnippetTypes>
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>service</ID>
+        <ToolTip>service name</ToolTip>
+        <Default>service</Default>
+      </Literal>
+      <Literal>
+        <ID>function</ID>
+        <ToolTip>Function</ToolTip>
+        <Default>function</Default>
+      </Literal>
+      <Literal>
+        <ID>arg</ID>
+        <ToolTip>arg</ToolTip>
+        <Default>arg</Default>
+      </Literal>
+      <Literal>
+        <ID>property</ID>
+        <ToolTip>Property</ToolTip>
+        <Default>property</Default>
+      </Literal>
+    </Declarations>
+    <Code Language="TypeScript">
+      <![CDATA[this.$service$.$function$
+  .subscribe($arg$ => this.$property$ = $arg$);$end$
+]]></Code>
+  </Snippet>
+</CodeSnippet>

@@ -1,0 +1,29 @@
+﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <Title>ng2bootstrap</Title>
+    <Author>Mads Kristensen</Author>
+    <Shortcut>ng2bootstrap</Shortcut>
+    <Description>Angular 2 bootstrap snippet</Description>
+    <SnippetTypes>
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>app</ID>
+        <ToolTip>App name</ToolTip>
+        <Default>App</Default>
+      </Literal>
+    </Declarations>
+    <Code Language="TypeScript">
+      <![CDATA[import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+
+import { $app$Module } from './$app$.module';
+
+platformBrowserDynamic().bootstrapModule($app$Module)
+  .then(success => console.log(`Bootstrap success`))
+  .catch(error => console.log(error));
+$end$]]></Code>
+  </Snippet>
+</CodeSnippet>

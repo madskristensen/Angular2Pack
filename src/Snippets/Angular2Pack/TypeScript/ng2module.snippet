@@ -1,0 +1,39 @@
+﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <Title>ng2module</Title>
+    <Author>Mads Kristensen</Author>
+    <Shortcut>ng2module</Shortcut>
+    <Description>Angular 2 Module snippet</Description>
+    <SnippetTypes>
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>name</ID>
+        <ToolTip>name</ToolTip>
+        <Default>name</Default>
+      </Literal>
+      <Literal>
+        <ID>Name</ID>
+        <ToolTip>Name</ToolTip>
+        <Default>Name</Default>
+      </Literal>
+    </Declarations>
+    <Code Language="TypeScript">
+      <![CDATA[import { NgModule } from '@angular/core';
+
+import { $Name$Component } from './$name$.component';
+
+@NgModule({
+  imports: [],
+  exports: [],
+  declarations: [$Name$Component],
+  providers: [],
+})
+export class $Name$Module { }
+$end$]]>
+    </Code>
+  </Snippet>
+</CodeSnippet>
