@@ -1,0 +1,24 @@
+﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <Title>ng2httpget</Title>
+    <Author>Mads Kristensen</Author>
+    <Shortcut>ng2httpget</Shortcut>
+    <Description>Angular 2 Http.get snippet</Description>
+    <SnippetTypes>
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>url</ID>
+        <ToolTip>Url</ToolTip>
+        <Default>url</Default>
+      </Literal>
+    </Declarations>
+    <Code Language="TypeScript">
+      <![CDATA[return this.http.get('$url$')
+  .map((response: Response) => response.json()$end$);
+]]></Code>
+  </Snippet>
+</CodeSnippet>

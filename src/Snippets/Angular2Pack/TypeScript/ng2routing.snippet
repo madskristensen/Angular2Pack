@@ -1,0 +1,42 @@
+﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <Title>ng2routing</Title>
+    <Author>Mads Kristensen</Author>
+    <Shortcut>ng2routing</Shortcut>
+    <Description>Angular 2 routing snippet</Description>
+    <SnippetTypes>
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>name</ID>
+        <ToolTip>Name</ToolTip>
+        <Default>Name</Default>
+      </Literal>
+      <Literal>
+        <ID>path</ID>
+        <ToolTip>Path</ToolTip>
+        <Default>path</Default>
+      </Literal>
+    </Declarations>
+    <Code Language="TypeScript">
+      <![CDATA[import { NgModule } from '@angular/core';
+import { Routes, RouterModule } from '@angular/router';
+
+import { $name$Component } from './$name$.component';
+
+const routes: Routes = [
+  { path: '$path$', component: $name$Component },
+];
+
+@NgModule({
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule],
+})
+export class $name$RoutingModule { }
+
+export const routedComponents = [$name$Component]]]></Code>
+  </Snippet>
+</CodeSnippet>
