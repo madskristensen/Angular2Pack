@@ -18,29 +18,25 @@ Here's the full list of all the snippets:
 Type part of a snippet, press `enter`, and the snippet unfolds.
 
 ### TypeScript Snippets
-```typescript
-ng2bootstrap       // Angular 2 bootstrapping, for main.ts
-ng2component       // Angular 2 component
-ng2componentroot   // Angular 2 root app component
-ng2httpget         // Angular 2 http.get with Rx Observable
-ng2module          // Angular 2 module
-ng2moduleroot      // Angular 2 root app module
-ng2pipe            // Angular 2 pipe
-ng2routing         // Angular 2 routing
-ng2service         // Angular 2 service
-ng2subscribe       // Angular 2 Rx Observable subscription
-```
+* ng2bootstrap
+* ng2component
+* ng2componentroot
+* ng2httpget
+* ng2module
+* ng2moduleroot
+* ng2pipe
+* ng2routing
+* ng2service
+* ng2subscribe
 
 ### HTML Snippets
-```html
-ng2-ngClass
-ng2-ngFor
-ng2-ngIf
-ng2-ngModel
-ng2-routerLink
-ng2-ngStyle
-ng2-ngSwitch
-```
+* ng2-ngClass
+* ng2-ngFor
+* ng2-ngIf
+* ng2-ngModel
+* ng2-routerLink
+* ng2-ngStyle
+* ng2-ngSwitch
 
 ## Credit
 This extension is based on John Papa's [Angular 2 Snippets for VS Code](https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2)
