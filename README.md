@@ -1,14 +1,14 @@
 ## Angular 2 Snippet Pack for Visual Studio
-<!--
-[![Build status](https://ci.appveyor.com/api/projects/status/qogg94i8nry0g0j7?svg=true)](https://ci.appveyor.com/project/madskristensen/javascriptsnippetpack)
+
+[![Build status](https://ci.appveyor.com/api/projects/status/u243phuwf6enp6o6?svg=true)](https://ci.appveyor.com/project/madskristensen/angular2pack)
 
 Download this extension from the
 [VS Gallery](https://marketplace.visualstudio.com/vsgallery/d8a046e0-818d-4e37-add6-e751824285ba)
 or get the
-[nightly build](http://vsixgallery.com/extension/2a20580c-7be4-4440-bcd6-8dcf5aa2004e/).
+[nightly build](http://vsixgallery.com/extension/bb1c4e6a-8943-48fb-a82f-42294d86623c/).
 
 -----------------------------------------
--->
+
 A snippet pack to make you more productive working with the Angular 2 framework. 
 Based on John Papa's snippet pack for Visual Studio Code.
 
