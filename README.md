@@ -12,9 +12,6 @@ or get the
 A snippet pack to make you more productive working with the Angular 2 framework. 
 Based on John Papa's snippet pack for Visual Studio Code.
 
-This extension ships a bunch of useful code snippets for
-the TypeScript and HTML editors to make it easier to work with Angular 2. 
-
 Here's the full list of all the snippets:
 
 ## Usage
