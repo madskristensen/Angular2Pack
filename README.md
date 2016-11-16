@@ -3,13 +3,14 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/qogg94i8nry0g0j7?svg=true)](https://ci.appveyor.com/project/madskristensen/javascriptsnippetpack)
 
 Download this extension from the
-[VS Gallery](https://visualstudiogallery.msdn.microsoft.com/423eb4a3-215f-4a8f-9287-1512618ffda3)
+[VS Gallery](https://marketplace.visualstudio.com/vsgallery/d8a046e0-818d-4e37-add6-e751824285ba)
 or get the
 [nightly build](http://vsixgallery.com/extension/2a20580c-7be4-4440-bcd6-8dcf5aa2004e/).
 
 -----------------------------------------
 -->
-A TypeScript snippet pack to make you more productive working with the Angular 2 framework.
+A snippet pack to make you more productive working with the Angular 2 framework. 
+Based on John Papa's snippet pack for Visual Studio Code.
 
 This extension ships a bunch of useful code snippets for
 the TypeScript and HTML editors to make it easier to work with Angular 2. 
