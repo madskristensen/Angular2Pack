@@ -15,7 +15,7 @@ Based on John Papa's snippet pack for Visual Studio Code.
 Here's the full list of all the snippets:
 
 ## Usage
-Type part of a snippet, press `enter`, and the snippet unfolds.
+Type part of a snippet, press `TAB`, and the snippet unfolds.
 
 ### TypeScript Snippets
 * ng2bootstrap
