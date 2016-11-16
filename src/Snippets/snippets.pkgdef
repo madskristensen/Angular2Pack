@@ -1,6 +1,6 @@
 ﻿
 [$RootKey$\Languages\CodeExpansions\TypeScript\Paths]
-"Angular2Pack"="$PackageFolder$\TypeScript\Angular2Pack"
+"Angular2Pack"="$PackageFolder$\ng2-TypeScript"
 
 [$RootKey$\Languages\CodeExpansions\HTML\Paths]
-"Angular2Pack"="$PackageFolder$\HTML\Angular2Pack"
+"Angular2Pack"="$PackageFolder$\ng2-HTML"
